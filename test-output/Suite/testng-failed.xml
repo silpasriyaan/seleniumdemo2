@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testingNgDemo1.TestNgDemo4">
+        <methods>
+          <include name="funB"/>
+          <include name="funC"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo4 -->
+      <class name="testingNgDemo1.TestNgDemo5A">
+        <methods>
+          <include name="customerDetails"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo5A -->
+      <class name="testingNgDemo1.TestNgDemo5">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

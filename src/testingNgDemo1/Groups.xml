@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <exclude name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="testingNgDemo1.TestNgGroupsDemo1" />
+    </classes>
+  </test>
+</suite>

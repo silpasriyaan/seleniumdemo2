@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="testingNgDemo1.TestNgDemo5">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo5 -->
+      <class name="testingNgDemo1.TestNgDemo4">
+        <methods>
+          <include name="funB"/>
+          <include name="funC"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo4 -->
+      <class name="testingNgDemo1.TestNgDemo5A">
+        <methods>
+          <include name="customerDetails"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- testingNgDemo1.TestNgDemo5A -->
+      <class name="testingNgDemo1.testingNgDemo1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testingNgDemo1.testingNgDemo1 -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
